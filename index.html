@@ -1,271 +1,453 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
-	<title>Ranjan Kumar Choubey</title>
+	<title>Ranjan Kumar Choubey — Data Engineer</title>
 	<link rel="icon" href="images/photograph.jpg" type="image/x-icon" />
 	<meta charset="utf-8" />
+	<meta name="description" content="Ranjan Kumar Choubey — Data Engineer at Deloitte (Walmart). GCP, Airflow, BigQuery, Scala. M.Tech ISI Kolkata." />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<style>
-		.link-style {
-			text-decoration: none;
-			color: inherit;
-		}
-
-		.link-style:hover {
-			color: #0505bf;
-		}
-	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
-<body class="is-preload">
-	<!-- Header -->
+<body>
+	<!-- ====== Header / Hero ====== -->
 	<section id="header">
+		<div class="hero-pattern"></div>
 		<nav class="inner" style="text-align: center;">
-			<a href="#header" class="button small link-style" style="margin: 10px;">Home</a>
-			<a href="#aboutme" class="button small link-style" style="margin: 10px;">About Me</a>
-			<a href="#experience" class="button small link-style" style="margin: 10px;">Experience</a>
-			<a href="#education" class="button small link-style" style="margin: 10px;">Education</a>
-			<a href="#skills" class="button small link-style" style="margin: 10px;">Skills</a>
-			<a href="#projects" class="button small link-style" style="margin: 10px;">Projects</a>
-			<a href="#footer" class="button small link-style" style="margin: 10px;">Contact</a>
-			<a href="https://drive.usercontent.google.com/u/0/uc?id=16_PICyQx2krt0FWOdML9iamP6k4orpf6&export=download"
-				class="button small link-style" download style="margin: 10px;"><span class="icon solid fa-download"></span>
-				Resume</a>
+			<div class="nav-inner">
+				<a href="#header" class="nav-link">Home</a>
+				<a href="#aboutme" class="nav-link">About</a>
+				<a href="#experience" class="nav-link">Experience</a>
+				<a href="#education" class="nav-link">Education</a>
+				<a href="#skills" class="nav-link">Skills</a>
+				<a href="#work" class="nav-link">Work</a>
+				<a href="#contact" class="nav-link">Contact</a>
+			</div>
 		</nav>
-		<hr>
-		<div class="inner">
-		    <span class="icon solid major fa-cloud"></span>
-		    <h1>I am <strong>Ranjan</strong>,<br />
-		        a Data Engineer and Software Developer</h1>
-		    <blockquote>Transforming data into actionable insights and innovative solutions.</blockquote>
+		<div class="inner" style="text-align: center; margin-top: 2em;">
+			<div class="hero-icon">
+				<i class="fas fa-database"></i>
+			</div>
+			<h1>I am <strong>Ranjan</strong>,<br />a Data Engineer</h1>
+			<p class="hero-subtitle">Building enterprise-scale data pipelines at Walmart — transforming raw data into reliable, queryable assets that power business decisions.</p>
+			<div class="hero-cta">
+				<a href="#work" class="btn btn-primary"><i class="fas fa-briefcase"></i> View My Work</a>
+				<a href="#contact" class="btn btn-ghost"><i class="fas fa-envelope"></i> Get in Touch</a>
+			</div>
 		</div>
-
 	</section>
 
-	<!-- About Me -->
-	<section id="aboutme" class="main style">
-		<div class="container">
-			<div class="row gtr-150">
-				<div class="col-12 col-12-medium">
-					<header class="major">
-						<h2><strong>About Me</strong></h2>
-					</header>
-					<strong>
-						<p><span class="image left"><img src="images/photograph.jpg" alt="" /></span>Hello! My name is
-							Ranjan Kumar Choubey. I am currently pursuing M.Tech in Computer Science, specializing in
-							Data Science from ISI Kolkata. Currently, I am doing a summer internship as a Data Science
-							Intern
-							in ALLSTATE India Company. I completed my B.Tech in Information Technology in 2021 and then
-							joined TATA Power as a Software Developer for 2 years. During my tenure, I acquired various
-							skills such as Database Management, Web Development, and more specifically, building APIs
-							for machine learning models and integrating them into web frameworks. My interest in Machine
-							Learning and Data Science led me to ISI Kolkata. My goal is to become an industrial
-							researcher. In my free time, I love to read about the latest advancements in data science
-							and experiment with new tools and techniques. I am
-							always eager to learn and grow in this ever-evolving field.</p>
-					</strong>
+	<!-- ====== About Me ====== -->
+	<section id="aboutme" class="section section-light">
+		<div class="container-custom">
+			<div class="section-header fade-up">
+				<span class="section-label">About Me</span>
+				<h2 class="section-title">Data Engineer with a passion<br>for building at scale</h2>
+			</div>
+
+			<div class="about-content fade-up">
+				<div class="about-photo-wrapper">
+					<img src="images/photograph.jpg" alt="Ranjan Kumar Choubey" class="about-photo" />
+				</div>
+				<div class="about-text">
+					<p>
+						I am a Data Engineer at <strong>Deloitte</strong>, currently building enterprise-scale data
+						pipelines for <strong>Walmart's</strong> data platform on Google Cloud. I engineer ingestion
+						pipelines for 100+ tables across SAP systems into BigQuery, build Scala-based transformation
+						JARs processing billions of rows, and orchestrate 20+ Airflow DAGs.
+					</p>
+					<p>
+						I hold an <strong>M.Tech in Computer Science</strong> (Data Science) from the
+						<strong>Indian Statistical Institute, Kolkata</strong> — where I secured <strong>All India
+						Rank 11</strong> in the entrance exam. Before ISI, I spent 2 years at Tata Power building
+						backend APIs, data pipelines, ML models, and automated reporting systems.
+					</p>
+				</div>
+			</div>
+
+			<div class="about-highlights stagger">
+				<div class="highlight-card fade-up">
+					<span class="num">3+</span>
+					<span class="label">Years Experience</span>
+				</div>
+				<div class="highlight-card fade-up">
+					<span class="num">AIR 11</span>
+					<span class="label">ISI Entrance Exam</span>
+				</div>
+				<div class="highlight-card fade-up">
+					<span class="num">100+</span>
+					<span class="label">Tables Ingested</span>
+				</div>
+				<div class="highlight-card fade-up">
+					<span class="num">20+</span>
+					<span class="label">Airflow DAGs</span>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Experience -->
-	<section id="experience" class="main style2">
-		<div class="container">
-			<div class="row gtr-150">
-				<div class="col-12 col-12-medium">
-					<header class="major">
-						<h2><b>Experience</b></h2>
-					</header>
-					<ul style="list-style-type: none; padding: 0;">
-						<li style="margin-bottom: 10px;"><strong>May 2024 - July 2024: <a href="https://www.allstateindia.com/" class="link-style">Allstate India</a> | Data Science
-								Intern</strong>
-							<ul>
-								<li>At Allstate India, I worked as a Data Science Intern from May 15, 2024, to July 31,
-									2024, focusing on predicting bad debt for the insurance company.</li>
-								<li>During this internship, I developed and implemented machine learning classification
-									models to predict bad debts, which helped in risk management and decision-making
-									processes.</li>
-							</ul>
-						</li>
-						<li style="margin-bottom: 10px;"><strong>Sept. 2021 - Aug 2023: <a href="https://www.tatapower.com/" class="link-style">TATA Power Company Ltd.</a> | Lead
-								Engineer</strong>
-							<ul>
-								<li>At Tata Power, I drove backend development, Python, and Data Analysis for
-									user-centric apps, optimizing data efficiency and enhancing interfaces.</li>
-								<li>Contributed to impactful Machine Learning projects, elevating predictive analytics
-									for significant business outcomes through cross-functional collaboration.</li>
-								<li>I have worked on these projects:
-									<ul>
-										<li><strong><a href="https://analytics.tatapower.com/haldia_gs/" class="link-style">MPL Haldia
-													Generation & Sales Prediction</a></strong>: Integrated Machine
-											Learning models into the project, developed APIs, and contributed to
-											significant cost savings.</li>
-										<li><strong><a href="https://analytics.tatapower.com/mpl_apc/" class="link-style">MPL Auxiliary
-													Power Reduction</a></strong>: Developed a diagnostic analysis system
-											and employed an ML model to predict the current for the gas-fired Condensate
-											Extraction Pump (CEP).</li>
-										<li><strong><a href="https://analytics.tatapower.com/ppgcl_sp/" class="link-style">PPGCL Sales
-													Prediction</a></strong>: Integrated a Machine Learning model into a
-											web application using FastAPI-Python and Power BI, enabling accurate power
-											trading price predictions.</li>
-										<li><strong>Hydro-Monsoon Data & Generation Dashboard</strong>: Developed
-											end-to-end automated Power BI reports providing valuable insights using data
-											analysis.</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
+	<!-- ====== Experience ====== -->
+	<section id="experience" class="section section-gray">
+		<div class="container-custom">
+			<div class="section-header fade-up">
+				<span class="section-label">Experience</span>
+				<h2 class="section-title">Where I've worked</h2>
+				<p class="section-subtitle">My professional journey in data engineering and software development.</p>
+			</div>
+
+			<div class="timeline">
+				<!-- Deloitte -->
+				<div class="timeline-item fade-up">
+					<div class="timeline-header">
+						<span class="timeline-role">Consultant — Data Engineer</span>
+						<span class="timeline-dot"></span>
+						<a href="https://www.deloitte.com/" class="timeline-company" target="_blank" rel="noopener">Deloitte</a>
+					</div>
+					<span class="timeline-date">May 2025 – Present</span>
+					<div class="timeline-client">Client: Walmart — Enterprise Data Platform (Ingestion &amp; Consumption Layer)</div>
+					<ul class="timeline-bullets">
+						<li>Engineered ingestion pipelines for 100+ tables: SAP-ECC/EWM/CAR → ICDS → GCS Raw Zone → Catalog Zone → BigQuery External Tables for downstream analytics.</li>
+						<li>Built Scala-based JARs to process billions of rows, encapsulating complex BigQuery transformation logic for the consumption layer.</li>
+						<li>Optimized SQL query logic across the consumption layer, reducing query execution time by 40% and cutting compute costs on BigQuery.</li>
+						<li>Designed and managed 20+ Apache Airflow DAGs with retry logic, dependency management, SLA monitoring, and failure alerting.</li>
+						<li>Automated DAG and CCM configuration by building a Python tool that detects column sensitivity, maps schemas, and provisions GCS buckets.</li>
+						<li>Maintained CI/CD pipelines using Git for version-controlled deployments across dev, staging, and production.</li>
+					</ul>
+				</div>
+
+				<!-- Allstate -->
+				<div class="timeline-item fade-up">
+					<div class="timeline-header">
+						<span class="timeline-role">Data Science Intern</span>
+						<span class="timeline-dot"></span>
+						<a href="https://www.allstateindia.com/" class="timeline-company" target="_blank" rel="noopener">Allstate India</a>
+					</div>
+					<span class="timeline-date">May 2024 – Jul 2024</span>
+					<ul class="timeline-bullets">
+						<li>Optimized baseline XGBoost model for payment default prediction, improving accuracy from 77% to 85% via geographic feature engineering.</li>
+						<li>Analyzed geographic data to identify default trends; presented to Bengaluru &amp; US teams, leading to 3 targeted model enhancements.</li>
+					</ul>
+				</div>
+
+				<!-- Tata Power - Lead -->
+				<div class="timeline-item fade-up">
+					<div class="timeline-header">
+						<span class="timeline-role">Lead Engineer</span>
+						<span class="timeline-dot"></span>
+						<a href="https://www.tatapower.com/" class="timeline-company" target="_blank" rel="noopener">Tata Power</a>
+					</div>
+					<span class="timeline-date">Sep 2022 – Aug 2023</span>
+					<ul class="timeline-bullets">
+						<li>Created ML forecasting model for day-ahead electricity trading on IEX, achieving 88% prediction accuracy.</li>
+						<li>Engineered automated pipeline integrating real-time plant telemetry (PI Server) with IEX market data, reducing manual collection by 50%.</li>
+						<li>Designed backend REST APIs using FastAPI and Node.js to serve data for 10+ Power BI dashboards.</li>
+					</ul>
+				</div>
+
+				<!-- Tata Power - GET -->
+				<div class="timeline-item fade-up">
+					<div class="timeline-header">
+						<span class="timeline-role">Graduate Engineer Trainee</span>
+						<span class="timeline-dot"></span>
+						<a href="https://www.tatapower.com/" class="timeline-company" target="_blank" rel="noopener">Tata Power</a>
+					</div>
+					<span class="timeline-date">Aug 2021 – Sep 2022</span>
+					<ul class="timeline-bullets">
+						<li>Deployed ML models on on-premise servers, managing full lifecycle from development to production with CI/CD.</li>
+						<li>Built email automation for employee onboarding — extracting, parsing, and updating DB, eliminating manual entry for 100+ employees/year.</li>
+						<li>Automated Power BI reporting for HR, operations, and engineering teams, reducing manual effort by 20%.</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Education Section -->
-	<section id="education" class="main style">
-		<div class="container">
-			<div class="row gtr-150">
-				<div class="col-12 col-12-medium">
-					<header class="major">
-						<h2><b>Education</b></h2>
-					</header>
-					<ul>
-						<li style="margin-bottom: 10px;"><b>M.Tech - Computer Science</b> (August 2023 - August
-							2025)<br><strong><a href="https://www.isical.ac.in/" class="link-style">Indian Statistical Institute, Kolkata, West Bengal</a></strong><br><b>1st Year
-								Percentage: 72%</b></li>
-						<li style="margin-bottom: 10px;"><b>B.Tech - Information Technology</b> (August 2017 - August
-							2021)<br><strong><a href="https://www.bitsindri.ac.in/" class="link-style">BIT Sindri, Dhanbad, Jharkhand</a></strong><br><b>Percentage: 88.9%</b></li>
-						<li style="margin-bottom: 10px;"><b>Intermediate, Science</b> (July 2014 - July
-							2016)<br><strong>R Govind Plus Two High School, Garhwa</strong><br><b>Percentage: 81%</b>
-						</li>
-						<li style="margin-bottom: 10px;"><b>10th</b> (July 2012 - July 2014)<br><strong>R Govind High
-								School, Garhwa</strong><br><b>Percentage: 79.2%</b></li>
-					</ul>
+	<!-- ====== Education ====== -->
+	<section id="education" class="section section-light">
+		<div class="container-custom">
+			<div class="section-header fade-up">
+				<span class="section-label">Education</span>
+				<h2 class="section-title">Academic background</h2>
+				<p class="section-subtitle">Strong foundation in computer science and data science.</p>
+			</div>
+
+			<div class="edu-grid stagger">
+				<div class="edu-card fade-up">
+					<div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+					<div class="edu-degree">M.Tech — Computer Science (Data Science)</div>
+					<a href="https://www.isical.ac.in/" class="edu-school" target="_blank" rel="noopener">Indian Statistical Institute, Kolkata</a>
+					<span class="edu-year">2023 – 2025</span>
+					<div class="edu-badges">
+						<span class="edu-badge">AIR 11 in ISI Entrance</span>
+						<span class="edu-badge">AIR 1 EWS Category</span>
+					</div>
+				</div>
+				<div class="edu-card fade-up">
+					<div class="edu-icon"><i class="fas fa-university"></i></div>
+					<div class="edu-degree">B.Tech — Information Technology</div>
+					<a href="https://www.bitsindri.ac.in/" class="edu-school" target="_blank" rel="noopener">BIT Sindri, Dhanbad</a>
+					<span class="edu-year">2017 – 2021</span>
+					<div class="edu-badges">
+						<span class="edu-badge">CGPA 8.89 — Rank 1</span>
+						<span class="edu-badge">BITSAA Scholar '18 &amp; '19</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Skills Section -->
-	<section id="skills" class="main style2">
-		<div class="container">
-			<div class="row gtr-150">
-				<div class="col-12 col-12-medium">
-					<header class="major">
-						<h2><b>Technical Skills</b></h2>
-					</header>
-					<ul>
-						<li style="margin-bottom: 10px;"><strong>Programming Languages:</strong> C/C++, Python, SQL</li>
-						<li style="margin-bottom: 10px;"><strong>Libraries/Frameworks:</strong> NodeJS, Fast-API, Flask,
-							Nginx, PyTorch, PySpark</li>
-						<li style="margin-bottom: 10px;"><strong>Tools / Platforms:</strong> Linux, Docker, Git-Gitlab,
-							PowerBI, JIRA</li>
-						<li style="margin-bottom: 10px;"><strong>Databases:</strong> Postgres, MySQL</li>
-						<li style="margin-bottom: 10px;"><strong>Data Science Skills:</strong> Machine Learning, Deep
-							Learning, NLP, Statistics, Probability</li>
-					</ul>
+	<!-- ====== Skills ====== -->
+	<section id="skills" class="section section-dark">
+		<div class="container-custom" style="text-align: center;">
+			<div class="section-header fade-up">
+				<span class="section-label">Skills</span>
+				<h2 class="section-title">Tech stack</h2>
+				<p class="section-subtitle" style="margin: 0 auto;">Technologies and tools I work with daily.</p>
+			</div>
+
+			<div class="skills-grid stagger" style="text-align: left;">
+				<div class="skill-card fade-up">
+					<div class="skill-category">Languages</div>
+					<div class="skill-tags">
+						<span class="skill-tag">Python</span>
+						<span class="skill-tag">Scala</span>
+						<span class="skill-tag">SQL</span>
+						<span class="skill-tag">Bash</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">Data Engineering</div>
+					<div class="skill-tags">
+						<span class="skill-tag">Apache Airflow</span>
+						<span class="skill-tag">Apache Spark</span>
+						<span class="skill-tag">ETL/ELT</span>
+						<span class="skill-tag">Data Modeling</span>
+						<span class="skill-tag">CDC</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">Cloud &amp; Warehousing</div>
+					<div class="skill-tags">
+						<span class="skill-tag">GCP</span>
+						<span class="skill-tag">BigQuery</span>
+						<span class="skill-tag">GCS</span>
+						<span class="skill-tag">Dataproc</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">Databases</div>
+					<div class="skill-tags">
+						<span class="skill-tag">BigQuery</span>
+						<span class="skill-tag">PostgreSQL</span>
+						<span class="skill-tag">MySQL</span>
+						<span class="skill-tag">SQL Server</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">Backend &amp; APIs</div>
+					<div class="skill-tags">
+						<span class="skill-tag">FastAPI</span>
+						<span class="skill-tag">Node.js</span>
+						<span class="skill-tag">REST APIs</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">DevOps &amp; Tools</div>
+					<div class="skill-tags">
+						<span class="skill-tag">Docker</span>
+						<span class="skill-tag">Git</span>
+						<span class="skill-tag">CI/CD</span>
+						<span class="skill-tag">Linux</span>
+						<span class="skill-tag">Power BI</span>
+					</div>
+				</div>
+				<div class="skill-card fade-up">
+					<div class="skill-category">ML &amp; Analytics</div>
+					<div class="skill-tags">
+						<span class="skill-tag">Machine Learning</span>
+						<span class="skill-tag">Deep Learning</span>
+						<span class="skill-tag">PyTorch</span>
+						<span class="skill-tag">NLP</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-<br>
-	<!-- Projects -->
-	<section id="projects" class="main style2 special">
-		<div class="container">
-			<header class="major">
-				<h2><strong>My Projects</strong></h2>
-			</header>
-			<p>Here are some of the projects I have worked on:</p>
-			<div class="row gtr-150">
-				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/email-spam.png" alt="" /></span>
-					<h3>Email Spam Classification</h3>
-					<p>Developed a machine learning model to classify emails as spam or not spam using various
-						algorithms and techniques.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button link-style">Code</a></li>
-						<li><a href="#" class="button link-style">Demo</a></li>
-					</ul>
+
+	<!-- ====== Featured Work ====== -->
+	<section id="work" class="section section-gray">
+		<div class="container-custom" style="text-align: center;">
+			<div class="section-header fade-up">
+				<span class="section-label">Featured Work</span>
+				<h2 class="section-title">Real projects, real impact</h2>
+				<p class="section-subtitle" style="margin: 0 auto;">Highlights from my professional experience.</p>
+			</div>
+
+			<div class="work-grid stagger" style="text-align: left;">
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon blue"><i class="fas fa-database"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Deloitte / Walmart</span>
+						<h3>Enterprise Data Pipeline</h3>
+						<p>End-to-end ingestion pipeline for 100+ SAP tables flowing through GCS Raw Zone, Catalog Zone, and into BigQuery External Tables for downstream analytics.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">BigQuery</span>
+						<span class="work-tag">GCS</span>
+						<span class="work-tag">Airflow</span>
+						<span class="work-tag">Scala</span>
+						<span class="work-tag">Python</span>
+					</div>
 				</div>
-				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/Power-bi.png" alt="" /></span>
-					<h3>Power BI Dashboard</h3>
-					<p>Created an interactive and Automated Power BI dashboard to visualize and analyze business data for better
-						decision-making.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button link-style">Code</a></li>
-						<li><a href="#" class="button link-style">Demo</a></li>
-					</ul>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon cyan"><i class="fas fa-cogs"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Deloitte / Walmart</span>
+						<h3>DAG Config Automation Tool</h3>
+						<p>Python tool that auto-detects column sensitivity, maps target schemas, renames SAP columns with business descriptions, and provisions GCS buckets — replacing hours of manual setup.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">Python</span>
+						<span class="work-tag">Airflow</span>
+						<span class="work-tag">Automation</span>
+						<span class="work-tag">GCS</span>
+					</div>
 				</div>
-				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/face-recognition.png" alt="" /></span>
-					<h3>Face Recognition</h3>
-					<p>Developed a face recognition system using deep learning techniques to identify and verify
-						individuals.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button link-style">Code</a></li>
-						<li><a href="#" class="button link-style">Demo</a></li>
-					</ul>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon green"><i class="fas fa-tachometer-alt"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Deloitte / Walmart</span>
+						<h3>BigQuery Query Optimization</h3>
+						<p>Optimized SQL logic across the consumption layer for large-scale datasets, reducing query execution time by 40% and cutting compute costs.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">BigQuery</span>
+						<span class="work-tag">SQL</span>
+						<span class="work-tag">Performance</span>
+					</div>
 				</div>
-				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/bad-debt.jpg" alt="" /></span>
-					<h3>Bad Debt Classification</h3>
-					<p>Implemented a classification model to predict bad debts and help in risk management for financial
-						institutions.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button link-style">Code</a></li>
-						<li><a href="#" class="button link-style">Demo</a></li>
-					</ul>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon purple"><i class="fas fa-bolt"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Tata Power</span>
+						<h3>IEX Energy Trading Forecast</h3>
+						<p>ML forecasting model for day-ahead electricity trading on Indian Energy Exchange, achieving 88% accuracy with real-time PI Server integration.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">Python</span>
+						<span class="work-tag">ML</span>
+						<span class="work-tag">FastAPI</span>
+						<span class="work-tag">Power BI</span>
+					</div>
 				</div>
-				<div class="col-4 col-12-medium">
-					<span class="image fit"><img src="images/customer-segmentation.jpg" alt="" /></span>
-					<h3>Customer Segmentation</h3>
-					<p>Performed customer segmentation using clustering techniques to identify distinct customer groups
-						for targeted marketing.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button link-style">Code</a></li>
-						<li><a href="#" class="button link-style">Demo</a></li>
-					</ul>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon orange"><i class="fas fa-chart-bar"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Tata Power</span>
+						<h3>Automated Reporting System</h3>
+						<p>End-to-end automated Power BI dashboards for HR, customer operations, and engineering teams. REST APIs with FastAPI and Node.js serving 10+ dashboards.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">Power BI</span>
+						<span class="work-tag">FastAPI</span>
+						<span class="work-tag">Node.js</span>
+						<span class="work-tag">REST APIs</span>
+					</div>
+				</div>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon blue"><i class="fas fa-shield-alt"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Allstate India</span>
+						<h3>Payment Default Prediction</h3>
+						<p>Optimized XGBoost model improving payment default prediction from 77% to 85% accuracy using geographic feature engineering and hyperparameter tuning.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">XGBoost</span>
+						<span class="work-tag">Python</span>
+						<span class="work-tag">Feature Eng.</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-<br>
-	<!-- Contact Section -->
-	<section id="footer">
-		<div class="container">
-			<header class="major">
-				<h2><strong>Contact</strong></h2>
-			</header>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/ranjan-kumar-choubey-1704ab279/"
-						class="icon brands alt fa-linkedin link-style"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/ranjan-kumar-choubey" class="icon brands alt fa-github link-style"><span
-							class="label">GitHub</span></a></li>
-				<li><a href="mailto:ranjankumarchoubey999@gmail.com" class="icon solid alt fa-envelope link-style"><span
-							class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Copyright</li>
-				<li>Email: ranjankumarchoubey999@gmail.com</li>
-			</ul>
+
+	<!-- ====== Contact ====== -->
+	<section id="contact" class="section section-contact">
+		<div class="container-custom">
+			<div class="section-header fade-up">
+				<span class="section-label">Contact</span>
+				<h2 class="section-title" style="color: #fff;">Let's connect</h2>
+				<p class="section-subtitle" style="color: #94a3b8; margin: 0 auto;">Open to Data Engineering opportunities at product companies.</p>
+			</div>
+
+			<div class="contact-links fade-up">
+				<a href="https://www.linkedin.com/in/ranjan-kumar-choubey-1704ab279/" class="contact-btn primary" target="_blank" rel="noopener">
+					<i class="fab fa-linkedin"></i> LinkedIn
+				</a>
+				<a href="https://github.com/ranjanchoubey" class="contact-btn outline" target="_blank" rel="noopener">
+					<i class="fab fa-github"></i> GitHub
+				</a>
+				<a href="mailto:ranjankumarchoubey999@gmail.com" class="contact-btn outline">
+					<i class="fas fa-envelope"></i> Email
+				</a>
+			</div>
+
+			<div class="footer-copy">
+				&copy; 2026 Ranjan Kumar Choubey
+			</div>
 		</div>
 	</section>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<!-- Back to top -->
+	<a href="#header" class="back-to-top" id="backToTop" aria-label="Back to top">
+		<i class="fas fa-arrow-up"></i>
+	</a>
 
+	<!-- ====== Scripts ====== -->
+	<script>
+		// Scroll Reveal Animation
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('visible');
+				}
+			});
+		}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+		document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+		// Back to top button
+		const backBtn = document.getElementById('backToTop');
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 600) {
+				backBtn.classList.add('show');
+			} else {
+				backBtn.classList.remove('show');
+			}
+		});
+	</script>
 </body>
 
 </html>
