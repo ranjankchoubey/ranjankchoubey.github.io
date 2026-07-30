@@ -56,16 +56,15 @@
 				</div>
 				<div class="about-text">
 					<p>
-						I am a Data Engineer at <strong>Deloitte</strong>, currently building enterprise-scale data
-						pipelines for <strong>Walmart's</strong> data platform on Google Cloud. I engineer ingestion
-						pipelines for 100+ tables across SAP systems into BigQuery, build Scala-based transformation
-						JARs processing billions of rows, and orchestrate 20+ Airflow DAGs.
+						Data Engineer with <strong>3+ years of experience</strong> building large-scale data pipelines on GCP.
+						Currently owning the consumption layer of <strong>Walmart's</strong> enterprise data platform &mdash;
+						Spark-Scala, Airflow, BigQuery across 100+ SAP and Kafka source tables.
 					</p>
 					<p>
-						I hold an <strong>M.Tech in Computer Science</strong> (Data Science) from the
-						<strong>Indian Statistical Institute, Kolkata</strong> — where I secured <strong>All India
-						Rank 11</strong> in the entrance exam. Before ISI, I spent 2 years at Tata Power building
-						backend APIs, data pipelines, ML models, and automated reporting systems.
+						<strong>M.Tech from ISI Kolkata (AIR 11)</strong> with research on Graph Transformers.
+						Previously built backend APIs, ML models, and automated reporting at <strong>Tata Power</strong>.
+						Also ships full-stack apps &mdash; deployed a production
+						<a href="https://app.ranjankchoubey.com" target="_blank" rel="noopener">Next.js app</a> with AI-powered writing.
 					</p>
 				</div>
 			</div>
@@ -111,12 +110,12 @@
 					<span class="timeline-date">May 2025 – Present</span>
 					<div class="timeline-client">Client: Walmart — Enterprise Data Platform (Ingestion &amp; Consumption Layer)</div>
 					<ul class="timeline-bullets">
-						<li>Engineered ingestion pipelines for 100+ tables: SAP-ECC/EWM/CAR → ICDS → GCS Raw Zone → Catalog Zone → BigQuery External Tables for downstream analytics.</li>
-						<li>Built Scala-based JARs to process billions of rows, encapsulating complex BigQuery transformation logic for the consumption layer.</li>
-						<li>Optimized SQL query logic across the consumption layer, reducing query execution time by 40% and cutting compute costs on BigQuery.</li>
-						<li>Designed and managed 20+ Apache Airflow DAGs with retry logic, dependency management, SLA monitoring, and failure alerting.</li>
-						<li>Automated DAG and CCM configuration by building a Python tool that detects column sensitivity, maps schemas, and provisions GCS buckets.</li>
-						<li>Maintained CI/CD pipelines using Git for version-controlled deployments across dev, staging, and production.</li>
+						<li>Own the consumption layer &mdash; writing Spark-Scala transformation pipelines, building JARs, end-to-end data flow from Datalake to BigQuery.</li>
+						<li>Delivered the UEP Sales Module independently: requirements gathering, SQL validation against SAP, Spark-Scala development, Airflow orchestration, and SFTP delivery.</li>
+						<li>Built ingestion pipelines for 100+ tables across SAP-ECC, EWM, CAR; also ingested data from Kafka brokers into GCS Datalake.</li>
+						<li>Designed Airflow DAGs orchestrating Spark jobs and SFTP transfers with retry policies, SLA monitoring, and automated failure recovery.</li>
+						<li>Implemented data quality validation using SQL checks against SAP sources. Debugged and resolved production pipeline failures.</li>
+						<li>Built a Python automation tool that standardized DAG and CCM configuration across new pipeline onboardings.</li>
 					</ul>
 				</div>
 
@@ -295,50 +294,69 @@
 					</div>
 					<div class="work-card-body">
 						<span class="work-card-company">Deloitte / Walmart</span>
-						<h3>Enterprise Data Pipeline</h3>
-						<p>End-to-end ingestion pipeline for 100+ SAP tables flowing through GCS Raw Zone, Catalog Zone, and into BigQuery External Tables for downstream analytics.</p>
+						<h3>Enterprise Data Platform</h3>
+						<p>Owning consumption layer in Spark-Scala, ingestion from 100+ SAP tables and Kafka brokers into GCS/BigQuery. Airflow DAGs with SLA monitoring and automated failure recovery.</p>
 					</div>
 					<div class="work-card-tags">
+						<span class="work-tag">Spark-Scala</span>
 						<span class="work-tag">BigQuery</span>
-						<span class="work-tag">GCS</span>
 						<span class="work-tag">Airflow</span>
-						<span class="work-tag">Scala</span>
-						<span class="work-tag">Python</span>
+						<span class="work-tag">Kafka</span>
+						<span class="work-tag">GCP</span>
 					</div>
 				</div>
 
 				<div class="work-card fade-up">
 					<div class="work-card-header">
-						<div class="work-card-icon cyan"><i class="fas fa-cogs"></i></div>
+						<div class="work-card-icon purple"><i class="fas fa-brain"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">ISI Kolkata / M.Tech Thesis</span>
+						<h3>PCGT &mdash; Graph Transformer</h3>
+						<p>Novel Graph Transformer replacing O(N&sup2;) global attention with partition-aware attention. Outperformed SGFormer on 10/12 benchmarks. Scales to 1.6M+ node graphs.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">PyTorch</span>
+						<span class="work-tag">PyG</span>
+						<span class="work-tag">METIS</span>
+						<span class="work-tag">Research</span>
+					</div>
+				</div>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon cyan"><i class="fas fa-edit"></i></div>
+					</div>
+					<div class="work-card-body">
+						<span class="work-card-company">Personal Project</span>
+						<h3><a href="https://app.ranjankchoubey.com" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Notebook App</a></h3>
+						<p>AI-powered note-taking app with rich editor, code blocks, math rendering, drawing canvas, PDF export. Integrates Gemini and Groq for AI writing. Deployed as PWA.</p>
+					</div>
+					<div class="work-card-tags">
+						<span class="work-tag">Next.js</span>
+						<span class="work-tag">React</span>
+						<span class="work-tag">Firebase</span>
+						<span class="work-tag">AI</span>
+						<span class="work-tag">TypeScript</span>
+					</div>
+				</div>
+
+				<div class="work-card fade-up">
+					<div class="work-card-header">
+						<div class="work-card-icon green"><i class="fas fa-cogs"></i></div>
 					</div>
 					<div class="work-card-body">
 						<span class="work-card-company">Deloitte / Walmart</span>
-						<h3>DAG Config Automation Tool</h3>
-						<p>Python tool that auto-detects column sensitivity, maps target schemas, renames SAP columns with business descriptions, and provisions GCS buckets — replacing hours of manual setup.</p>
+						<h3>Pipeline Automation Tool</h3>
+						<p>Python tool that standardized DAG and CCM configuration across new pipeline onboardings &mdash; column sensitivity detection, schema mapping, GCS provisioning.</p>
 					</div>
 					<div class="work-card-tags">
 						<span class="work-tag">Python</span>
 						<span class="work-tag">Airflow</span>
 						<span class="work-tag">Automation</span>
-						<span class="work-tag">GCS</span>
 					</div>
 				</div>
 
-				<div class="work-card fade-up">
-					<div class="work-card-header">
-						<div class="work-card-icon green"><i class="fas fa-tachometer-alt"></i></div>
-					</div>
-					<div class="work-card-body">
-						<span class="work-card-company">Deloitte / Walmart</span>
-						<h3>BigQuery Query Optimization</h3>
-						<p>Optimized SQL logic across the consumption layer for large-scale datasets, reducing query execution time by 40% and cutting compute costs.</p>
-					</div>
-					<div class="work-card-tags">
-						<span class="work-tag">BigQuery</span>
-						<span class="work-tag">SQL</span>
-						<span class="work-tag">Performance</span>
-					</div>
-				</div>
 
 				<div class="work-card fade-up">
 					<div class="work-card-header">
