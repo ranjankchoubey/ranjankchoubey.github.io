@@ -107,13 +107,13 @@
 						<a href="https://www.deloitte.com/" class="timeline-company" target="_blank" rel="noopener">Deloitte</a>
 					</div>
 					<span class="timeline-date">May 2025 – Present</span>
-					<div class="timeline-client">Client: Walmart — Unified Enterprise Planning (data feeds for planning &amp; forecasting)</div>
+					<div class="timeline-client">Client: Walmart International — Enterprise Planning, Order Management and retail analytics</div>
 					<ul class="timeline-bullets">
-						<li>Write Spark-Scala transformation pipelines (JARs) moving data from the Datalake to BigQuery and GCS; the output feeds Walmart's enterprise planning and forecasting.</li>
-						<li>Delivered the UEP Sales Module end to end: requirements gathering, SQL validation against SAP, Spark-Scala development, Airflow orchestration, and SFTP delivery.</li>
-						<li>Built ingestion pipelines for 100+ tables across SAP-ECC, EWM, CAR; also ingested data from Kafka brokers into GCS Datalake.</li>
-						<li>Built Airflow DAGs (from team templates) orchestrating Spark jobs and SFTP transfers with retries.</li>
-						<li>Implemented data quality validation using SQL checks against SAP sources. Debugged and resolved production pipeline failures.</li>
+						<li><strong>Enterprise Planning:</strong> independently delivered the Sales module &mdash; a Spark-Scala pipeline over rolling N-week windows into Hudi that generates SAP BW planning feeds; validated with SAP and BW teams. Appreciated by the Walmart manager.</li>
+						<li><strong>Sales &amp; margin:</strong> GMV/sales enrichment across retail banners and day-to-YTD windows, feeding Enterprise Planning.</li>
+						<li><strong>Order substitutions:</strong> built and deployed the substitution analytics layer over Kafka order events &mdash; nil/short picks, substitution outcomes, GMV and fill rate.</li>
+						<li><strong>Markdown reporting (current):</strong> leading discovery to deployment &mdash; source profiling, KPI definitions and validated BigQuery views.</li>
+						<li>Ingested 100+ SAP and Kafka source tables into the GCS datalake; Airflow orchestration, SQL data-quality checks, and CI/CD deployments to production.</li>
 					</ul>
 				</div>
 
