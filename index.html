@@ -110,7 +110,7 @@
 					<div class="timeline-client">Client: Walmart International (since Jul 2025) — data ingestion, then consumption-layer data products</div>
 					<ul class="timeline-bullets">
 						<li><strong>Ingestion:</strong> brought 100+ SAP (ECC, EWM, CAR) and Kafka source tables into the GCS datalake, orchestrated with Airflow and released via CI/CD.</li>
-						<li><strong>Enterprise Planning:</strong> independently delivered the Sales module &mdash; Spark-Scala pipelines that build sales and margin data, aggregate it over rolling N-week windows into Hudi, and generate SAP BW planning feeds; validated with SAP and BW teams.</li>
+						<li><strong>Enterprise Planning:</strong> independently delivered the Sales module &mdash; Spark-Scala pipelines that build sales and margin data, aggregate it over rolling N-week windows into Hudi, and generate SAP BW planning feeds; validated with SAP and BW teams. Runs daily, feeding Walmart's daily planning.</li>
 						<li><strong>Order substitutions:</strong> built and deployed the substitution analytics layer over Kafka order events &mdash; nil/short picks, substitution outcomes and fill rate.</li>
 						<li><strong>Markdown reporting (current):</strong> leading discovery to deployment &mdash; source profiling, KPI definitions and validated BigQuery views.</li>
 						<li>Appreciated by the Walmart manager for the Enterprise Planning and substitution deliveries.</li>
