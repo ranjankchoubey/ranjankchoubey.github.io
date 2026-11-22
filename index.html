@@ -5,7 +5,7 @@
 	<title>Ranjan Kumar Choubey — Machine Learning Engineer</title>
 	<link rel="icon" href="images/photograph.jpg" type="image/x-icon" />
 	<meta charset="utf-8" />
-	<meta name="description" content="Ranjan Kumar Choubey — Machine Learning Engineer. M.Tech Data Science, ISI Kolkata. Forecasting models in production, Graph Transformer research, LLMs and RAG." />
+	<meta name="description" content="Ranjan Kumar Choubey — Machine Learning Engineer. M.Tech Data Science, ISI Kolkata. ML models deployed to production, Graph Transformer research, production data pipelines on GCP, LLMs and RAG." />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
 				<i class="fas fa-brain"></i>
 			</div>
 			<h1>I am <strong>Ranjan</strong>,<br />Machine Learning Engineer</h1>
-			<p class="hero-subtitle">M.Tech in Data Science from ISI Kolkata. Forecasting models in production, Graph Transformer research, and large-scale data on GCP behind Walmart's planning and forecasting.</p>
+			<p class="hero-subtitle">M.Tech in Data Science from ISI Kolkata. ML models taken to production, Graph Transformer research, and production data pipelines on GCP for Walmart International.</p>
 			<div class="hero-cta">
 				<a href="#work" class="btn btn-primary"><i class="fas fa-briefcase"></i> View My Work</a>
 				<a href="Ranjan_Kumar_Choubey_Resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener"><i class="fas fa-download"></i> Download Resume</a>
@@ -58,12 +58,11 @@
 				<div class="about-text">
 					<p>
 						<strong>M.Tech in Data Science from ISI Kolkata (AIR 11)</strong>, with a dissertation on reducing attention complexity in Graph Transformers.
-						Built and deployed an electricity-trading forecast model at <strong>Tata Power</strong> and improved a payment-default model at <strong>Allstate</strong>.
+						I've taken ML models from data to production at <strong>Tata Power</strong> and improved a payment-default prediction model at <strong>Allstate</strong>.
 					</p>
 					<p>
-						At <strong>Deloitte</strong>, on a <strong>Walmart</strong> engagement, I build the Spark-Scala data products on GCP that feed Walmart's enterprise planning and forecasting.
-						I also teach Probability, Statistics and Machine Learning for GATE DA, and build full-stack apps &mdash; for example an
-						<a href="https://app.ranjankchoubey.com" target="_blank" rel="noopener">AI-powered notebook</a>.
+						At <strong>Deloitte</strong>, on a <strong>Walmart International</strong> engagement, I build production data pipelines on GCP &mdash; for enterprise planning, order analytics and repeat-purchase recommendations.
+						I'm now building an agentic RAG assistant over RBI and SEBI regulatory circulars, designed evaluation-first.
 					</p>
 				</div>
 			</div>
@@ -79,7 +78,7 @@
 				</div>
 				<div class="highlight-card fade-up">
 					<span class="num">2</span>
-					<span class="label">Forecast Models in Production</span>
+					<span class="label">ML Models in Production</span>
 				</div>
 				<div class="highlight-card fade-up">
 					<span class="num">4x</span>
@@ -109,9 +108,10 @@
 					<span class="timeline-date">May 2025 – Present</span>
 					<div class="timeline-client">Client: Walmart International (since Jul 2025)</div>
 					<ul class="timeline-bullets">
-						<li><strong>Enterprise Planning:</strong> independently delivered the Sales module &mdash; Spark-Scala pipelines that build sales and margin data, aggregate it over rolling N-week windows into Hudi, and generate SAP BW planning feeds; validated with SAP and BW teams. Runs daily, feeding Walmart's daily planning.</li>
-						<li><strong>Order substitutions:</strong> built and deployed the substitution analytics layer over Kafka order events &mdash; nil/short picks, substitution outcomes and fill rate.</li>
-						<li><strong>Markdown reporting (current):</strong> leading discovery to deployment &mdash; source profiling, KPI definitions and validated BigQuery views.</li>
+						<li><strong>Enterprise planning feed:</strong> built the Sales module &mdash; Spark-Scala pipelines that build sales and margin data, aggregate it over rolling N-week windows into Hudi, and generate 6 planning-feed types across 3 retail banners; validated with SAP and BW teams. Runs daily in ~25&ndash;30 minutes.</li>
+						<li><strong>Order-fulfilment analytics:</strong> built and deployed end to end the substitution analytics layer over Kafka order events &mdash; nil/short picks, substitution outcomes and fill rate &mdash; served as BigQuery views.</li>
+						<li><strong>Recommendation data:</strong> built the PySpark view joining e-commerce transactions with the product catalogue for the repeat-purchase recommendations feature (live).</li>
+						<li><strong>Markdown analytics (current):</strong> leading discovery for a 7-store pilot &mdash; source profiling, 18 KPI definitions and 3 validated BigQuery views.</li>
 						<li><strong>Ingestion:</strong> brought 100+ SAP and Kafka source tables into the GCS datalake (Airflow, CI/CD).</li>
 						<li>Appreciated by the Walmart manager for the Enterprise Planning and substitution deliveries.</li>
 					</ul>
@@ -169,7 +169,7 @@
 					<ul class="timeline-bullets">
 						<li>Built and deployed ARIMA and XGBoost forecasts for the Haldia power plant in day-ahead time blocks.</li>
 						<li>Generation model: real-time PI System sensor data and Tata Steel data (temperature, pressure, boilers online, coal moisture). Sales model: IEX market data.</li>
-						<li>Designed backend REST APIs using FastAPI and Node.js to serve data for 10+ Power BI dashboards.</li>
+						<li>Put both models into production on on-premise servers with CI/CD; built REST APIs (FastAPI, Node.js) serving data to 10+ Power BI dashboards.</li>
 					</ul>
 				</div>
 
@@ -182,7 +182,6 @@
 					</div>
 					<span class="timeline-date">Sep 2021 – Sep 2022</span>
 					<ul class="timeline-bullets">
-						<li>Deployed ML models on on-premise servers, managing full lifecycle from development to production with CI/CD.</li>
 						<li>Built email automation for employee onboarding — extracting, parsing, and updating DB, eliminating manual entry for 100+ employees/year.</li>
 						<li>Automated Power BI reporting for HR, operations, and engineering teams, replacing Excel-based workflows.</li>
 					</ul>
@@ -389,8 +388,8 @@
 					</div>
 					<div class="work-card-body">
 						<span class="work-card-company">Deloitte / Walmart</span>
-						<h3>Planning &amp; Forecasting Data Products</h3>
-						<p>Spark-Scala data products on GCP &mdash; sales and margin over rolling windows, order-substitution analytics &mdash; that feed Walmart's daily enterprise planning and forecasting.</p>
+						<h3>Retail Data Products on GCP</h3>
+						<p>Spark-Scala and PySpark data products for Walmart International &mdash; sales and margin over rolling windows for daily enterprise planning, order-substitution analytics, and the data behind repeat-purchase recommendations.</p>
 					</div>
 					<div class="work-card-tags">
 						<span class="work-tag">Spark-Scala</span>
@@ -444,7 +443,7 @@
 			<div class="section-header fade-up">
 				<span class="section-label">Contact</span>
 				<h2 class="section-title" style="color: #fff;">Let's connect</h2>
-				<p class="section-subtitle" style="color: #94a3b8; margin: 0 auto;">Open to Machine Learning Engineer and ML Platform roles in Bengaluru.</p>
+				<p class="section-subtitle" style="color: #94a3b8; margin: 0 auto;">Happy to talk about machine learning, data systems and teaching.</p>
 			</div>
 
 			<div class="contact-links fade-up">
